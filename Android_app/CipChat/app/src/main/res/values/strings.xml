@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CipChat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="registrati">Registrati!</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="button_description">Emoticons Button</string>
+    <string name="chat_hint">Enter text here</string>
+    <string name="post">Post</string>
+    <string name="back">Back</string>
+    <string name="title_activity_code">CodeActivity</string>
+    <string name="server_addr">http://192.168.0.200/App/ins_mex.php</string>
+    <string name="server_addr_utenti">http://192.168.0.200/App/ins_user.php</string>
+    <string name="server_addr_code">http://192.168.0.200/App/validate_user.php</string>
+    <string name="server_addr_check">http://192.168.0.200/App/check_contacts.php</string>
+    <string name="title_activity_my">MyActivity</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/contacts_layout">
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UTENTI CHIPCHAT"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="323dp"
+        android:id="@+id/list_users"/> -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.50"
+        android:id="@+id/image_chipchat"
+        android:text="Utenti ChipChat"
+        android:background="#ff0eff36" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.50"
+            android:id="@+id/image_altri"
+            android:text="Altri Utenti"
+            android:background="#ffd3d9d9" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_utenti"
+        android:orientation="vertical"/>
+</LinearLayout>

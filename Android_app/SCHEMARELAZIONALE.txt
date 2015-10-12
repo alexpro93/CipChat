@@ -1,0 +1,16 @@
+Utenti (numero, Nome)
+	numero=numero di telefono contatto (chiave primaria)
+	nome = nome del contatto(come è salvato in rubrica)
+CREATE TABLE utenti(numero VARCHAR(14) PRIMARY KEY, nome VARCHAR(30) NOT NULL);
+
+INSERT INTO utenti VALUES(“348..”,”alex..”),(“347”,”steve”);
+
+Messaggi(id, testo, destinatario*, dataora)
+	id = chiave primaria auto_increment INT
+	testo = testo del messaggio
+	Destinatario = chiave esterna Utenti(numero)
+	dataora = ora e data del messaggio
+
+CREATE TABLE messaggi(id INT PRIMARY KEY AUTOINCREMENT, testo VARCHAR(255) NOT NULL, destinatario VARCHAR(14) NOT NULL, dataora DATETIME NOT NULL, FOREIGN KEY(destinatario) REFERENCES utenti(numero));
+
+PRAGMA foreign_keys = ON;

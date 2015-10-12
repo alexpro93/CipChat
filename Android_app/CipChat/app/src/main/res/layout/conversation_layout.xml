@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.stevecavallin.cipchat.RoundedImageView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView"
+        android:layout_weight="0.20"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.80"
+        android:id="@id/textView"
+        android:text="Nome utente"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hidden"
+        android:visibility="invisible"/>
+</LinearLayout>
