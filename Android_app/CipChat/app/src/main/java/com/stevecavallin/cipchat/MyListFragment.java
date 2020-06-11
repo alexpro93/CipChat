@@ -101,7 +101,7 @@ public class MyListFragment extends ListFragment implements LoaderManager.Loader
         super.onActivityCreated(savedInstanceState);
         lv = getListView();
         /*ContentValues values=new ContentValues();
-        values.put(DataContentProvider.COL_NUMERO,"3486067125");
+        values.put(DataContentProvider.COL_NUMERO,"3490000000");
         values.put(DataContentProvider.COL_NOME,"Alex XD");
         Bitmap imm= BitmapFactory.decodeResource(this.getResources(), R.drawable.no_profile_picture);
         values.put(DataContentProvider.COL_IMMAGINE,SyncAdapter.bitmapToByteArray(imm));
